@@ -11,7 +11,7 @@ import com.koitt.board.util.DBUtil;
 import com.koitt.board.vo.Board;
 
 public class BoardDao {
-
+//dao command board의 jsp
 	public List<Board> selectAll() throws ClassNotFoundException, SQLException {
 		// 1. 데이터베이스 커넥션 객체 가져오기
 		Connection conn = DBUtil.getInstance().getConnection();
